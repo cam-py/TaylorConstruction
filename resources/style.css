@@ -1,0 +1,210 @@
+/*************************************************
+**************************************************
+
+Website Name: Taylor Vision
+Website URL: www.taylorvisionllc.com
+Website Author: Claudia Tchokouani
+Author URL: www.geekwayacademy.com
+Copyright 2017. All Rights Reserved.
+
+Color Guide
+***************
+
+
+*************************************************
+
+Type Guide
+***************
+html
+css
+javascript
+
+Debugging Tools
+***************
+border: 1px solid #fff;
+
+*************************************************/
+
+/************************************************
+*************************************************
+0. CSS Reset ------------------------ 
+1. Universal Styles -----------------
+2. Header & Nav Styles -------------- 
+3. Main Body Styles ----------------- 
+4. Sidebar Styles ------------------- 
+5. Widget Styles --------------------
+6. Footer Styles -------------------- 
+7. Comments & Form Styles ----------- 
+8. Generic Styles ----------- 
+*************************************************
+************************************************/
+
+/*----------------------------------------------
+------------------------------------------------
+0. CSS Reset
+------------------------------------------------
+----------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*----------------------------------------------
+------------------------------------------------
+1. Universal Styles
+------------------------------------------------
+----------------------------------------------*/
+html {
+  background-color: white;
+  
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("/img/
+construction_trends_bimcommunity.jpg");
+  
+}
+li {
+  list-style: none;
+}
+
+nav,
+div,
+li,
+main,
+footer{
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+/*----------------------------------------------
+------------------------------------------------
+2. Header & Nav Styles
+------------------------------------------------
+----------------------------------------------*/
+/*---HEADER----*/
+header {
+  height: 50px;
+  width: 100%;
+  background-color: beige;
+  border-bottom: 1px solid black;
+}
+#nav-wecome {
+  position: relative;
+  display: block;   
+}
+#nav-wecome h3 {
+  padding-top: 15px;
+}
+.welcome-message{
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+/*-----NAV----*/
+nav {
+  height: 100px;
+  background-color:white;
+}
+
+#nav-menu {
+  padding-top: 20px;
+  float: right;
+}
+.nav-menu-ulist {
+  display: inline-flex;
+    
+}
+
+.title-list h1 {
+  
+}
+
+.company-name {
+  position: relative;
+  font-size: 2em;
+  padding-right: 385px;
+  
+ 
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+
+/*----------------------------------------------
+------------------------------------------------
+3. Main Body Styles
+------------------------------------------------
+----------------------------------------------*/
+.client-main-menu {
+  height: 500px;
+  background-color: white;
+}
+
+.main-menu-ulist li{
+  display: inline-flex;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-right: 60px;
+  margin-top: 25%;
+}
+
+.main-menu-ulist button {
+  font-size: 1.2em;
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+#request-list {
+  padding-left: 40px;
+}
+/*----------------------------------------------
+------------------------------------------------
+4. Sidebar Styles
+------------------------------------------------
+----------------------------------------------*/
+
+/*----------------------------------------------
+------------------------------------------------
+5. Widget Styles
+------------------------------------------------
+----------------------------------------------*/
+
+/*----------------------------------------------
+------------------------------------------------
+6. Footer Styles
+------------------------------------------------
+----------------------------------------------*/
+footer {
+  
+  position:fixed;
+  margin-top:78px;
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  
+}
+.footer-nav {
+  
+}
+/*----------------------------------------------
+------------------------------------------------
+7. Comments & Form Styles
+------------------------------------------------
+----------------------------------------------*/
+
+/*----------------------------------------------
+------------------------------------------------
+8. Generic Styles
+------------------------------------------------
+----------------------------------------------*/
