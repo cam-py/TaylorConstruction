@@ -1,42 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Taylor Vision Construction, llc</title>
-    <link rel="stylesheet" href="./resources/style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./resources/style.css" />
+    <link rel="stylesheet" href="./vendors/css/ionicons.min.css" />
+    <link rel="stylesheet" href="./vendors/css/normalize.css" />
+    <link rel="stylesheet" href="./vendors/css/grid.css" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
   </head>
-  
+
   <body>
-    
     <header class="nav-container">
       <div id="nav-wecome">
-          <h3 class="welcome-message">Welcome Client!</h3>
-        </div>
+        <h3 class="welcome-message">Welcome Client!</h3>
+      </div>
     </header>
     <nav class="nav-box">
+      <!--<div class="logo">
+        <a href="./index.html"
+          ><img
+            src="./resources/img/tvcLogo_Gold.jpg"
+            alt="Taylor Vision Construction"
+            class="client-logo"
+        /></a>
+      </div>-->
       <div id="nav-menu">
         <ul class="nav-menu-ulist">
-          <li class="title-list">
-            <h1 class="company-name">Taylor Vision Construction</h1>
+          <li class="logo-list">
+            <a href="./index.html"
+              ><img
+                src="./resources/img/tvcLogo_Gold2.jpg"
+                alt="Taylor Vision Construction"
+                class="client-logo"
+            /></a>
           </li>
           <li class="notification-list">
-            <span class="material-symbols-outlined">
-            notifications_active
+            <span class="material-symbols-outlined" style="widt50px height">
+              notifications_active
             </span>
           </li>
           <li class="account-list">
-            <span class="material-symbols-outlined">
-            person
-            </span>
+            <span class="material-symbols-outlined"> person </span>
           </li>
-        </ul>  
-      </div> 
+        </ul>
+      </div>
     </nav>
-    
+
     <main>
       <div class="client-main-menu">
         <!--<h2 class="client-main">Choose an option!</h2>-->
@@ -56,6 +72,42 @@
     <script src="index.js"></script>
   </body>
   <footer>
-    <div class="footer-nav"></div>
+    <div class="row">
+      <div class="col span 1-of-2">
+        <ul class="footer-nav">
+          <li><a href="#">Terms and Conditions</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">ios App</a></li>
+          <li><a href="#">Android App</a></li>
+        </ul>
+      </div>
+      <div class="col span-1-of-2">
+        <ul class="social-links">
+          <li>
+            <a href="https://www.facebook.com/GeekWayAcademy/" target="_blank"
+              ><i class="ion-social-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/geekwayacademy/" target="_blank"
+              ><i class="ion-social-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"><i class="ion-social-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ion-social-youtube"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <p>
+        Copyright &copy; 2020 by Geek Way Academy an affiliate of The Geek Way.
+        All rights reserved.
+      </p>
+    </div>
   </footer>
 </html>
